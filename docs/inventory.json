@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-28T22:56:11.343Z",
   "reviewCheckedAt": "2026-10-27",
   "source": "https://registration.experientevent.com/ShowAGU261/Flow/SHOW/EmbeddedWidget/RoomBrowse#!/registrant//RoomBrowse/",
-  "monitor": "active",
+  "monitor": "failed",
   "hotels": [
     {
       "id": "43",
@@ -2019,13 +2019,13 @@
       ]
     }
   ],
-  "lastAttemptAt": "2026-10-28T22:53:52.922Z",
+  "lastAttemptAt": "2026-10-29T07:40:37+08:00",
   "lastSuccessAt": "2026-10-28T22:59:26.000Z",
-  "checkedHotels": 44,
-  "schedule": "every_5_minutes",
-  "runner": "Codex 本机定时任务",
+  "checkedHotels": 0,
+  "schedule": "每 30 分钟（香港时间）",
+  "runner": "HQLX62 后台任务；网页只展示已发布结果",
   "scheduleValidation": "scheduled_run",
-  "coverageNote": "本轮已逐一核验44/44家。按同一普通房型，9家有明确证据显示六晚均有房；Axiom 的通用 Standard Room 表格与酒店卡片“售罄”及未进入 Include Sold Out 名单相矛盾，暂不计入完整六晚，待后续复核。Hilton San Francisco Union Square恢复12月8日，Golden Gateway与Hotel Zeppelin该日晚再次售罄，Marriott Marquis普通房12月7–9日售罄。Westin仍缺12月8、9日。官网取消 Include Sold Out 后实查13家名单，其中部分酒店仍不满足六晚；Trip.com报价25/44，Yotel本轮指定日期无可核实房型价格，旧报价保留。",
+  "coverageNote": "本轮采集失败，旧房态与酒店核验时间未变更。",
   "officialListedIds": [
     "8",
     "9",
