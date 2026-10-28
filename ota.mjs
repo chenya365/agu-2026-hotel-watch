@@ -1,6 +1,7 @@
 // Public, manually verified offer snapshots. Never advance dates after a failed lookup.
 export const otaCheckedOn='2026-10-28';
 export const otaQuotes=[
+ {id:'18',platform:'Trip.com',total:3685,currency:'USD',room:'Two Double Room',beds:'2 张 Double 床 · 24㎡ · 禁烟',breakfast:'早餐未注明',cancel:'12 月 4 日 16:00 前免费取消',payment:'到店付款',evidence:'指定日期房型页报价；同房型含双早方案 US$3,888；Queen Room 单床方案 US$3,347；两间同时可订尚未核实',url:'https://uk.trip.com/hotels/san-francisco-hotel-detail-1570299/hotel-spero-vignette-collection-by-ihg/'},
  {id:'2',platform:'Trip.com',total:5016,currency:'USD',room:'Classic King High Floor and View',beds:'1 张 King 床 · 20–22㎡',breakfast:'早餐未注明',cancel:'24 小时取消窗口，细则待确认',payment:'在线预付',evidence:'指定日期房型页报价；同房型 12 月 4 日 23:59 前免费取消方案为 US$6,272；Classic Two Queen Room 双床方案为 US$5,033，24 小时取消窗口',url:'https://uk.trip.com/hotels/san-francisco-hotel-detail-2193634/beacon-grand-a-union-square-hotel/'},
  {id:'1',platform:'Trip.com',total:4583,currency:'USD',room:'Mono Queen',beds:'1 张 Queen 床 · 16–20㎡ · 禁烟',breakfast:'早餐未注明',cancel:'12 月 4 日 15:00 前免费取消',payment:'在线预付',evidence:'指定日期房型页报价；页面显示 Our last 3，尚未核实两间同时可订',url:'https://uk.trip.com/hotels/san-francisco-hotel-detail-4547494/axiom-hotel/'},
  {id:'24',platform:'Trip.com',total:3466,currency:'USD',room:'Two Double Room with City View',beds:'2 张 Double 床 · 299 平方英尺 · 禁烟',breakfast:'不含早餐',cancel:'24 小时取消窗口，细则待确认',payment:'在线预付',evidence:'指定日期房型页报价；同房型含双早、12 月 3 日 23:59 前免费取消、到店付款方案为 US$4,349',url:'https://us.trip.com/hotels/san-francisco-hotel-detail-2643761/hyatt-centric-fishermans-wharf/'},
