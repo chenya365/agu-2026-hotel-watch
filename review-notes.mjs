@@ -1,6 +1,13 @@
 // Dated editorial summaries. Complaint frequency is descriptive, not a population estimate.
 export const reviewedOn='2026-10-28';
 export const reviewDetails={
+  "14": {
+    "concern": "房间偏小、空调操作不便；较早个案反映通风气味及空调、浴室风机噪声。",
+    "frequency": "2026年9月29日评论提到房间小及空调不便；7月12日评论认为面积不大、适合短住；4月6日一条评论反映气味和设备噪声。属于所读样本，不代表全部房间或差评占比。",
+    "impact": "六晚住宿且睡眠舒适优先时，需要确认安静、通风的房间；Trip低价双床仅21㎡，不应只比较价格。",
+    "verdict": "Trip比价备选，AGU目前缺日期。当前Trip为8.6/10（42条）；8月26日住客肯定员工、清洁及门卡电梯，但这不是安全保证。",
+    "extraSources": [["Trip评分与住客原文", "https://www.trip.com/hotels/san-francisco-hotel-detail-2193624/hotel-fusion-san-francisco/"]]
+  },
   "6": {
     "concern": "近期住客提到老楼异味、街道或邻房夜间噪声，以及楼内台阶和升降平台不便。",
     "frequency": "2026 年 10 月 25 日评论提到异味；10 月 18 日评论提到持续街噪和升降平台不顺；10 月 6 日评论提到低楼层隐私及夜间住客噪声。属于具体住客经历，未统计全部差评占比。",
