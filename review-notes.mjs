@@ -1,6 +1,13 @@
 // Dated editorial summaries. Complaint frequency is descriptive, not a population estimate.
 export const reviewedOn='2026-10-28';
 export const reviewDetails={
+  "6": {
+    "concern": "近期住客提到老楼异味、街道或邻房夜间噪声，以及楼内台阶和升降平台不便。",
+    "frequency": "2026 年 10 月 25 日评论提到异味；10 月 18 日评论提到持续街噪和升降平台不顺；10 月 6 日评论提到低楼层隐私及夜间住客噪声。属于具体住客经历，未统计全部差评占比。",
+    "impact": "打车能减少外出步行，但无法解决房内噪声与老楼气味；浅睡或对气味敏感时应先确认安静房、楼层与抵达房间的台阶。",
+    "verdict": "恢复有房后的备选：Union Square 位置方便，Trip 当前 8.9/10（172 条）；舒适和安静优先时，不因新恢复库存就升为首选。",
+    "extraSources": [["Trip 评分与住客原文", "https://www.trip.com/hotels/san-francisco-hotel-detail-2193625/handlery-union-square-hotel/"]]
+  },
   "8": {
     "concern": "隔音、设备噪声和电梯等待；部分住客反映清洁与服务不稳定。",
     "frequency": "2026 年 3、6、9 月评论涉及噪声；电梯等待见 2、9 月评论。属于所读样本中重复出现，未统计全部差评占比。",
