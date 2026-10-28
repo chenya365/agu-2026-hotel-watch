@@ -1,6 +1,14 @@
 // Dated editorial summaries. Complaint frequency is descriptive, not a population estimate.
 export const reviewedOn='2026-10-28';
 export const reviewDetails={
+  "5": {
+    "concern": "设施显旧、早餐拥挤或选择有限；另有房型与楼层分配不符、冰机附近房间及高峰打车等待的投诉。",
+    "frequency": "2026年8月9日评论提到洗手盆轻微漏水、设施旧及早餐排队；10月27日再次提到设施旧和早餐普通。10月25日一条差评反映所订高层双床未获安排、房间靠冰机及打车等候较久，属个案，未统计总体差评占比。",
+    "impact": "重视睡眠、双床与打车便利时，应确认准确床型、远离冰机的安静房和早高峰出发时间；星级与高总评分不能替代这些确认。",
+    "verdict": "Trip当前9.0/10（158条）。10月15日、10月5日住客肯定空间、清洁及购物餐饮便利；8月26日也肯定整体品质。AGU仍无单一普通房型完整六晚，暂不进入可订推荐；Trip有另外的完整六晚报价。",
+    "fees": "Trip本轮总价标注含税及费用；政策页面列每晚75美元押金，押金并非最终房费。AGU是否豁免目的地费及当前费率未确认。",
+    "extraSources": [["Trip评分与住客原文", "https://www.trip.com/hotels/san-francisco-hotel-detail-2193606/grand-hyatt-san-francisco-union-square/"]]
+  },
   "41": {
     "concern": "街道深夜喊声、音乐和隔音，以及额外收费解释方面有投诉；住客对周边出入体验的评价有分歧。",
     "frequency": "2026年8月26日评论提到夜间喊声和隔音；4月6日住客被街外音乐吵醒。2月28日一条差评质疑额外收费；这些是具体住客经历，未统计总体差评比例。",
