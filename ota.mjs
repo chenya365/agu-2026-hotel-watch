@@ -1,6 +1,7 @@
 // Public, manually verified offer snapshots. Never advance dates after a failed lookup.
 export const otaCheckedOn='2026-10-28';
 export const otaQuotes=[
+ {id:'8',platform:'Trip.com',total:4099,currency:'USD',room:'Deluxe 2 Double Bed With Bay View',beds:'2 张 Double 床 · 269 平方英尺',breakfast:'早餐未确认',cancel:'11 月 29 日 23:59 前免费取消',url:'https://us.trip.com/hotels/san-francisco-hotel-detail-2193017/hilton-san-francisco-financial-district/'},
  {id:'17',platform:'Trip.com',total:2124,currency:'USD',room:'Deluxe Two Queen Room',beds:'2 张 Queen 床 · 29㎡',breakfast:'含 2 份早餐',cancel:'12 月 2 日 23:59 前免费取消',url:'https://www.trip.com/hotels/san-francisco-hotel-detail-2197623/riu-plaza-fisherman-s-wharf/'},
  {id:'13',platform:'Trip.com',total:2299,currency:'USD',room:'Deluxe Two Queen Room',beds:'2 张 Queen 床 · 29㎡',breakfast:'早餐未确认',cancel:'12 月 4 日 23:59 前免费取消',url:'https://www.trip.com/hotels/san-francisco-hotel-detail-45748742/hotel-caza-fisherman%E2%80%99s-wharf/'},
  {id:'35',platform:'Trip.com',total:3051,currency:'USD',room:'Standard Queen Room',beds:'1 张 Queen 床 · 16–23㎡',breakfast:'早餐另付，页面显示 US$36',cancel:'12 月 5 日 12:00 前免费取消',url:'https://www.trip.com/hotels/v2/san-francisco-hotel-detail-2197524/stanford-court-hotel/'}

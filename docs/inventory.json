@@ -2022,7 +2022,7 @@
   "lastAttemptAt": "2026-10-28T10:11:43.643Z",
   "lastSuccessAt": "2026-10-28T10:11:43.643Z",
   "checkedHotels": 44,
-  "schedule": "hourly",
+  "schedule": "every_5_minutes",
   "runner": "Codex 本机定时任务",
   "scheduleValidation": "manual_run_verified_pending_next_scheduled_run"
 }
