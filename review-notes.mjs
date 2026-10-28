@@ -1,6 +1,14 @@
 // Dated editorial summaries. Complaint frequency is descriptive, not a population estimate.
 export const reviewedOn='2026-10-28';
 export const reviewDetails={
+  "41": {
+    "concern": "街道深夜喊声、音乐和隔音，以及额外收费解释方面有投诉；住客对周边出入体验的评价有分歧。",
+    "frequency": "2026年8月26日评论提到夜间喊声和隔音；4月6日住客被街外音乐吵醒。2月28日一条差评质疑额外收费；这些是具体住客经历，未统计总体差评比例。",
+    "impact": "打车减少步行，但不能消除房内街噪和入口附近体验。周边不安属于主观经历，不能据此认定犯罪风险；应确认安静朝向及完整费用。",
+    "verdict": "Trip当前8.2/10（189条）。9月26日住客肯定舒适和空间，10月6日肯定清洁并提到门口安保，5月31日肯定生活便利；好评不能保证安全或隔音。AGU仍缺12月8日，暂不进入完整六晚推荐。",
+    "fees": "2月28日住客提到每晚49美元目的地费及15美元额度，但当前费率、AGU是否豁免未确认；本轮Trip总价标含税费，勿据旧评论重复加价。酒店政策页面另列每晚100美元押金，押金不等于最终房费。",
+    "extraSources": [["Trip评分与住客原文", "https://us.trip.com/hotels/san-francisco-hotel-detail-108848835/timbri-hotel-san-francisco-curio-collection-by-hilton/"]]
+  },
   "23": {
     "concern": "有住客投诉邻房谈话声、附加费，以及对独自外出时的周边感受不安；另有较早的异味和浴室维护个案。",
     "frequency": "2026年7月19日一条评论同时涉及隔音、设施费与周边感受；5月31日一条评论反映房间异味和浴室漆面脱落。7月18日提到休息区餐饮服务不顺；未统计总体差评占比，不能将个案视为所有房间现状。",
