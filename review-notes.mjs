@@ -1,6 +1,14 @@
 // Dated editorial summaries. Complaint frequency is descriptive, not a population estimate.
 export const reviewedOn='2026-10-28';
 export const reviewDetails={
+  "36": {
+    "concern": "部分住客对周边街区的感受有保留；另有房间小问题及较早附加费与设施施工不匹配的投诉。",
+    "frequency": "2026年8月25日住客提到房间小问题获员工积极处理，但因靠近Tenderloin对周边有保留；2025年4月6日另一住客也表达进出时不安。2025年11月19日评论质疑酒吧施工时仍收40美元费用，属较早个案，不能当作当前费率或施工状态。",
+    "impact": "打车减少步行，但仍应考虑上下车与酒店入口附近的体验。街区感受属于住客主观经历，不能据此认定犯罪风险；也不能用另一条安全好评作为保证。",
+    "verdict": "预算备选，暂不升至前三。Trip当前8.5/10（114条）；2026年10月18日肯定房间清洁，10月26日肯定员工及出行便利，8月25日肯定服务解决问题；较早评论也肯定床品舒适。普通双床与两间同时可订未确认。",
+    "fees": "本轮Trip报价标注含税及费用；AGU是否另收目的地费及当前准确费率尚未确认，勿将较早评论中的40美元直接加到预算。",
+    "extraSources": [["Trip评分与住客原文", "https://www.trip.com/hotels/san-francisco-hotel-detail-715515/staypineapple-an-elegant-hotel-union-square/"]]
+  },
   "37": {
     "concern": "空调与风扇噪声、异味、清洁响应，以及房型分配和费用解释方面有投诉。",
     "frequency": "2026年8月21日评论提到空调吵；8月8日一条详细差评涉及押金重复扣款争议、费用解释、气味和风扇；8月10日两条评论分别提到多次催清洁、先分到较小房间。属于具体住客经历，未统计总体差评占比。",
