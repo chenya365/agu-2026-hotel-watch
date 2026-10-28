@@ -1,6 +1,7 @@
 // Public, manually verified offer snapshots. Never advance dates after a failed lookup.
 export const otaCheckedOn='2026-10-28';
 export const otaQuotes=[
+ {id:'1',platform:'Trip.com',total:4583,currency:'USD',room:'Mono Queen',beds:'1 张 Queen 床 · 16–20㎡ · 禁烟',breakfast:'早餐未注明',cancel:'12 月 4 日 15:00 前免费取消',payment:'在线预付',evidence:'指定日期房型页报价；页面显示 Our last 3，尚未核实两间同时可订',url:'https://uk.trip.com/hotels/san-francisco-hotel-detail-4547494/axiom-hotel/'},
  {id:'24',platform:'Trip.com',total:3466,currency:'USD',room:'Two Double Room with City View',beds:'2 张 Double 床 · 299 平方英尺 · 禁烟',breakfast:'不含早餐',cancel:'24 小时取消窗口，细则待确认',payment:'在线预付',evidence:'指定日期房型页报价；同房型含双早、12 月 3 日 23:59 前免费取消、到店付款方案为 US$4,349',url:'https://us.trip.com/hotels/san-francisco-hotel-detail-2643761/hyatt-centric-fishermans-wharf/'},
 {"id":"11","total":2093,"room":"Standard Room","beds":"床型未明确","cancel":"页面显示免费取消，截止时间待确认","platform":"Trip.com","currency":"USD","breakfast":"早餐未确认","payment":"付款方式待确认","evidence":"指定日期搜索结果列表报价，尚未验证订单","url":"https://us.trip.com/hotels/detail/?cityEnName=San%20Francisco&cityId=313&hotelId=2081826&checkIn=2026-12-06&checkOut=2026-12-12&adult=2&children=0&crn=1&curr=USD"},
 {"id":"9","total":2701,"room":"2 Double Beds","beds":"2 张 Double 床","cancel":"24 小时取消窗口，细则待确认","platform":"Trip.com","currency":"USD","breakfast":"早餐未确认","payment":"付款方式待确认","evidence":"指定日期搜索结果列表报价，尚未验证订单","url":"https://us.trip.com/hotels/detail/?cityEnName=San%20Francisco&cityId=313&hotelId=1882708&checkIn=2026-12-06&checkOut=2026-12-12&adult=2&children=0&crn=1&curr=USD"},
