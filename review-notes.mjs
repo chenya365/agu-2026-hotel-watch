@@ -1,6 +1,14 @@
 // Dated editorial summaries. Complaint frequency is descriptive, not a population estimate.
 export const reviewedOn='2026-10-28';
 export const reviewDetails={
+  "37": {
+    "concern": "空调与风扇噪声、异味、清洁响应，以及房型分配和费用解释方面有投诉。",
+    "frequency": "2026年8月21日评论提到空调吵；8月8日一条详细差评涉及押金重复扣款争议、费用解释、气味和风扇；8月10日两条评论分别提到多次催清洁、先分到较小房间。属于具体住客经历，未统计总体差评占比。",
+    "impact": "六晚住宿且重视睡眠与服务稳定时，应先确认安静房、准确床型及费用明细；不能只因Union Square位置方便就优先选择。",
+    "verdict": "Trip当前7.6/10（125条）。9月11日和8月26日住客肯定位置与生活便利，8月21日住客提到夜间刷卡入口，但这不是安全保证。当前AGU缺12月8日，暂不进入完整六晚推荐。",
+    "fees": "Hilton官网说明每日目的地费包括网络、35美元餐饮额度及大堂咖啡茶；餐饮额度不是费率。AGU是否豁免、Trip总价是否已包含全部该费用仍应确认，勿重复加价。",
+    "extraSources": [["Trip评分与住客原文", "https://www.trip.com/hotels/san-francisco-hotel-detail-2193613/the-barnes-san-francisco-tapestry-collection-by-hilton/"],["Hilton官方费用说明", "https://www.hilton.com/en/hotels/sfoonup-the-barnes-san-francisco/"]]
+  },
   "14": {
     "concern": "房间偏小、空调操作不便；较早个案反映通风气味及空调、浴室风机噪声。",
     "frequency": "2026年9月29日评论提到房间小及空调不便；7月12日评论认为面积不大、适合短住；4月6日一条评论反映气味和设备噪声。属于所读样本，不代表全部房间或差评占比。",
