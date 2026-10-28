@@ -14,7 +14,7 @@ const rows=[
 ["Holiday Inn Express Fisherman's Wharf",226,'AAAAAA','30907.jpg',4.1,'IHG','Fisherman’s Wharf','实用型住宿、旅游餐饮方便；早餐包含情况须以 AGU 条款为准。','217813'],
 ['Holiday Inn Golden Gateway',240,'AAAAAA','8858.jpg',3.8,'IHG','Van Ness','位置实用；更适合预算比较，舒适度不作为本看板首选。','81049'],
 ['Hotel Abri',250,'WASSAA','22094.jpg',4.2,'精品酒店','Union Square','近 Parc 55，员工与床有好评；部分评价提到小、旧或房间气味。','81165'],
-['Hotel Caza',254,'AAAAAA','24265.jpg',4.3,'独立酒店','Fisherman’s Wharf','清洁舒适、休闲氛围；留意冰箱费用和临街、雾笛声音。','19065465'],
+['Hotel Caza',254,'AAAAAA','24265.jpg',4.3,'独立酒店','Fisherman’s Wharf','旅游位置与休闲设施是优势；收费、维护和服务投诉使其降为备选。','19065465'],
 ['Hotel Fusion',199,'SSSSSW','24843.jpg',3.5,'独立酒店','Union Square','价格与位置是优势；空间、空调、隔音和房间新旧存在取舍。','243535'],
 ['Hotel G',239,'AASSAA','15730.jpg',4.2,'精品酒店','Union Square','清洁与设计不错；工业风、照明与隔音不一定适合所有人。','6383475'],
 ['Nikko San Francisco',269,'AASAAA','22122.jpg',4.2,'Nikko','Union Square','床、清洁、浴室与设施较好，近 Parc 55；附加费需核对。','80793'],
@@ -47,7 +47,7 @@ const rows=[
 ['Westin St. Francis Hotel',260,'AASSAA','23531.jpg',4.0,'Marriott Westin','Union Square','床、历史建筑与位置有优势；楼翼和房型差异大，Standard 不等于 Tower。','81461'],
 ['Yotel San Francisco',261,'SAAASA','25539.png',3.9,'YOTEL','Mid-Market','清洁设计有好评；紧凑空间、部分浴室私密性与周边体验存在取舍。','12823020']
 ];
-const top=[34,30,25,12,27,16,23,9,20,7,10];
+const top=[34,30,25,27,16,23,12,9,20,10,7];
 // AGU RoomBrowse displayed distance to Moscone Convention Center, checked 2026-10-28.
 const venueMiles=[0.9,0.7,0.7,0.8,0.7,0.6,0.8,0.8,0.7,1.8,1.2,0.9,1.8,0.3,0.5,0.5,2.5,0.7,0.7,0.3,2.5,0.8,0.6,1.7,0.7,1.1,0.2,1.2,0.2,0.5,2.3,0.5,0.3,0.7,1.1,1.2,0.6,0.4,0.8,0.8,0.5,0.1,0.6,0.5];
 const wait=[3,1,2,26,6,4,15,29,32,41];
