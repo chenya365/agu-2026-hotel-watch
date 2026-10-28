@@ -1,6 +1,14 @@
 // Dated editorial summaries. Complaint frequency is descriptive, not a population estimate.
 export const reviewedOn='2026-10-28';
 export const reviewDetails={
+  "23": {
+    "concern": "有住客投诉邻房谈话声、附加费，以及对独自外出时的周边感受不安；另有较早的异味和浴室维护个案。",
+    "frequency": "2026年7月19日一条评论同时涉及隔音、设施费与周边感受；5月31日一条评论反映房间异味和浴室漆面脱落。7月18日提到休息区餐饮服务不顺；未统计总体差评占比，不能将个案视为所有房间现状。",
+    "impact": "睡眠和环境优先时要确认安静房、通风与费用明细；靠近会场并不代表邻房隔音好。街区感受属于个人经历，不能直接当作安全等级。",
+    "verdict": "Trip当前8.6/10（106条）。2026年8月21日肯定位置和客房舒适，1月27日肯定空间、清洁与服务；2025年4月4日也赞空间但提水压偏弱。AGU仍缺6、8日，暂不进入完整六晚推荐；Trip可作另外渠道比较。",
+    "fees": "Trip最低价标注含税及费用；评论提到设施费，当前准确费率与AGU是否豁免未确认，勿重复加价。",
+    "extraSources": [["Trip评分与住客原文", "https://www.trip.com/hotels/san-francisco-hotel-detail-2079055/hotel-zetta-san-francisco/"]]
+  },
   "36": {
     "concern": "部分住客对周边街区的感受有保留；另有房间小问题及较早附加费与设施施工不匹配的投诉。",
     "frequency": "2026年8月25日住客提到房间小问题获员工积极处理，但因靠近Tenderloin对周边有保留；2025年4月6日另一住客也表达进出时不安。2025年11月19日评论质疑酒吧施工时仍收40美元费用，属较早个案，不能当作当前费率或施工状态。",
