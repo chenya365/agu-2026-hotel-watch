@@ -118,41 +118,6 @@
               "status": "W"
             }
           ]
-        },
-        {
-          "room": "Standard Room",
-          "nights": [
-            {
-              "day": 6,
-              "price": 249,
-              "status": "A"
-            },
-            {
-              "day": 7,
-              "price": 249,
-              "status": "A"
-            },
-            {
-              "day": 8,
-              "price": 249,
-              "status": "A"
-            },
-            {
-              "day": 9,
-              "price": 249,
-              "status": "A"
-            },
-            {
-              "day": 10,
-              "price": 249,
-              "status": "A"
-            },
-            {
-              "day": 11,
-              "price": 249,
-              "status": "A"
-            }
-          ]
         }
       ]
     },
@@ -2060,7 +2025,7 @@
   "schedule": "every_5_minutes",
   "runner": "Codex 本机定时任务",
   "scheduleValidation": "scheduled_run",
-  "coverageNote": "本轮已逐一核验44/44家。按同一普通房型，10家六晚均有房；Hilton San Francisco Union Square 恢复12月8日，Golden Gateway与Hotel Zeppelin该日晚再次售罄，Marriott Marquis的普通房12月7–9日售罄。Westin仍缺12月8、9日。官网取消 Include Sold Out 后实查13家名单，其中部分酒店仍不满足六晚；Trip.com报价25/44，Yotel指定日期页无可核实房型价格，旧报价保留。",
+  "coverageNote": "本轮已逐一核验44/44家。按同一普通房型，9家有明确证据显示六晚均有房；Axiom 的通用 Standard Room 表格与酒店卡片“售罄”及未进入 Include Sold Out 名单相矛盾，暂不计入完整六晚，待后续复核。Hilton San Francisco Union Square恢复12月8日，Golden Gateway与Hotel Zeppelin该日晚再次售罄，Marriott Marquis普通房12月7–9日售罄。Westin仍缺12月8、9日。官网取消 Include Sold Out 后实查13家名单，其中部分酒店仍不满足六晚；Trip.com报价25/44，Yotel本轮指定日期无可核实房型价格，旧报价保留。",
   "officialListedIds": [
     "8",
     "9",
@@ -2282,6 +2247,6 @@
       "43",
       "44"
     ],
-    "summary": "本轮重新评估后，前三仍为Hyatt Regency San Francisco、InterContinental Mark Hopkins和Hotel Riu Plaza：三家仍有完整六晚，且现有评论证据分别提示邻近音乐、老楼维护差异、隔音与早餐排队等取舍。完整六晚候选仍为10家；Hilton San Francisco Union Square恢复12月8日，Golden Gateway与Hotel Zeppelin再次缺少12月8日，未改变前三的舒适与评价排序。Westin仍缺12月8、9日。Yotel Trip.com本轮按指定六晚查询仍无可核实房型价格，保留旧报价状态；评论和其他Trip价格日期不变，两间同时可订仍未确认。"
+    "summary": "本轮重新评估后，前三仍为Hyatt Regency San Francisco、InterContinental Mark Hopkins和Hotel Riu Plaza：三家仍有完整六晚，且现有评论证据分别提示邻近音乐、老楼维护差异、隔音与早餐排队等取舍。9家有明确证据显示完整六晚；Axiom 的房型表格与酒店卡片/官网列表矛盾，暂不计入。Hilton San Francisco Union Square恢复12月8日，Golden Gateway与Hotel Zeppelin再次缺少12月8日，未改变前三的舒适与评价排序。Westin仍缺12月8、9日。Yotel Trip.com本轮按指定六晚查询仍无可核实房型价格，保留旧报价状态；其他评论和报价日期不变，两间同时可订仍未确认。"
   }
 }
