@@ -48,8 +48,10 @@ const rows=[
 ['Yotel San Francisco',261,'SAAASA','25539.png',3.9,'YOTEL','Mid-Market','清洁设计有好评；紧凑空间、部分浴室私密性与周边体验存在取舍。','12823020']
 ];
 const top=[34,30,25,12,27,16,23,9,20,7,10];
+// AGU RoomBrowse displayed distance to Moscone Convention Center, checked 2026-10-28.
+const venueMiles=[0.9,0.7,0.7,0.8,0.7,0.6,0.8,0.8,0.7,1.8,1.2,0.9,1.8,0.3,0.5,0.5,2.5,0.7,0.7,0.3,2.5,0.8,0.6,1.7,0.7,1.1,0.2,1.2,0.2,0.5,2.3,0.5,0.3,0.7,1.1,1.2,0.6,0.4,0.8,0.8,0.5,0.1,0.6,0.5];
 const wait=[3,1,2,26,6,4,15,29,32,41];
-export const catalog=rows.map((r,i)=>({id:String(i+1),name:r[0],price:r[1],pattern:r[2],image:'https://registration.experientevent.com/HTMLProduction/HotelImages/'+r[3],rating:r[4],brand:r[5],area:r[6],review:r[7],reviewUrl:r[8]?'https://www.tripadvisor.com/Hotel_Review-g60713-d'+r[8]+'-Reviews.html':null,rank:top.includes(i)?top.indexOf(i)+1:wait.includes(i)?20+wait.indexOf(i):50+i,tag:top.includes(i)?'现有候选':wait.includes(i)?'值得关注':'其他选择'}));
+export const catalog=rows.map((r,i)=>({id:String(i+1),name:r[0],venueMiles:venueMiles[i],price:r[1],pattern:r[2],image:'https://registration.experientevent.com/HTMLProduction/HotelImages/'+r[3],rating:r[4],brand:r[5],area:r[6],review:r[7],reviewUrl:r[8]?'https://www.tripadvisor.com/Hotel_Review-g60713-d'+r[8]+'-Reviews.html':null,rank:top.includes(i)?top.indexOf(i)+1:wait.includes(i)?20+wait.indexOf(i):50+i,tag:top.includes(i)?'现有候选':wait.includes(i)?'值得关注':'其他选择'}));
 const extras={0:[['Standard Room-Double',249,'SSSSSW']],4:[['View Room',300,'SASAAA']],5:[['Premier Standard Room',290,'SASAAA']],13:[['Standard Room-Double',199,'SSSSSA']],32:[['Premier Room',299,'SSSSSS']],38:[['City/ Exec. Standard Room',271,'SAAAAA']]};
 const special={0:'Standard Room-Single',5:'Historic Standard Room',13:'Standard Room-Single',14:'Standard Room-Single',19:'Deluxe King Standard Room',38:'Deluxe Standard Room'};
 const room=(name,price,pattern)=>({room:name,nights:[...pattern].map((status,j)=>({day:j+6,price,status}))});
