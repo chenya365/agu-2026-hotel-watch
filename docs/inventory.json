@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-28T10:56:22.056Z",
+  "checkedAt": "2026-10-28T10:56:23.622Z",
   "reviewCheckedAt": "2026-10-27",
   "source": "https://registration.experientevent.com/ShowAGU261/Flow/SHOW/EmbeddedWidget/RoomBrowse#!/registrant//RoomBrowse/",
   "monitor": "active",
   "hotels": [
     {
       "id": "43",
-      "checkedAt": "2026-10-28T10:56:22.056Z",
+      "checkedAt": "2026-10-28T11:23:33.963Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -398,7 +398,7 @@
     },
     {
       "id": "7",
-      "checkedAt": "2026-10-28T10:56:30.961Z",
+      "checkedAt": "2026-10-28T11:22:10.694Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -2019,10 +2019,11 @@
       ]
     }
   ],
-  "lastAttemptAt": "2026-10-28T10:56:22.056Z",
-  "lastSuccessAt": "2026-10-28T10:57:41.084Z",
-  "checkedHotels": 44,
+  "lastAttemptAt": "2026-10-28T11:17:41.799Z",
+  "lastSuccessAt": "2026-10-28T11:23:33.963Z",
+  "checkedHotels": 2,
   "schedule": "every_5_minutes",
   "runner": "Codex 本机定时任务",
-  "scheduleValidation": "scheduled_run"
+  "scheduleValidation": "scheduled_run",
+  "coverageNote": "本轮核验 Westin 与 Harbor Court 共 2/44 家；其余保留原核验时间。"
 }
