@@ -2045,5 +2045,12 @@
     "42",
     "44"
   ],
-  "officialListCheckedAt": "2026-10-28T12:08:33.255Z"
+  "officialListCheckedAt": "2026-10-28T12:08:33.255Z",
+  "otaAttempts": {
+    "36": {
+      "status": "failed",
+      "attemptedAt": "2026-10-28T12:08:33.255Z",
+      "reason": "Trip.com 指定日期页面未返回可核实的房型报价；未更改报价。"
+    }
+  }
 }
