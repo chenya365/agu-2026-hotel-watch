@@ -8,7 +8,7 @@ const distance=(h:any)=>`约 ${(h.venueMiles*1.609344).toFixed(1)} 公里（${h.
 const money=(n:number)=>'$'+n.toLocaleString('en-US');
 function OtaOffer({id}:any){
  const q=otaQuotes.find((x:any)=>x.id===id);
- return <section className="ota-offer"><h3>第三方报价</h3>{q?<><strong>Trip.com · US${q.total.toLocaleString('en-US')}</strong><p>1 间 × 6 晚 · 2 位成人 · {q.tax}</p><p>{q.room}<br/>{q.beds} · {q.breakfast}<br/>{q.cancel}（平台未注明时区） · {q.payment}</p><a href={q.url} target="_blank" rel="noreferrer">查看 Trip.com 房型报价 ↗</a><small>报价核验日期：{q.checkedOn}。含促销；尚未进入订单确认，额外到店费用与同时两间余量未确认。</small></>:<p>{(otaUnavailable as any)[id]||'Trip.com：尚无已核实的六晚报价。'}</p>}<p className="muted">携程：酒店结果页未能加载，未取得报价。去哪儿：查询入口未能取得指定日期报价。查询日期 {otaCheckedOn}；均不代表售罄。</p></section>
+ return <section className="ota-offer"><h3>第三方报价</h3>{q?<><strong>Trip.com · US${q.total.toLocaleString('en-US')}</strong><p>1 间 × 6 晚 · 2 位成人 · {q.tax}</p><p>{q.room}<br/>{q.beds} · {q.breakfast}<br/>{q.cancel}（平台未注明时区） · {q.payment}</p><a href={q.url} target="_blank" rel="noreferrer">查看 Trip.com 房型报价 ↗</a><small>报价核验日期：{q.checkedOn}。{(q as any).evidence||'房型页面报价'}；尚未进入订单确认，额外到店费用与同时两间余量未确认。</small></>:<p>{(otaUnavailable as any)[id]||'Trip.com：尚无已核实的六晚报价。'}</p>}<p className="muted">携程：酒店结果页未能加载，未取得报价。去哪儿：查询入口未能取得指定日期报价。查询日期 {otaCheckedOn}；均不代表售罄。</p></section>
 }
 export default function Page(){
  const [data,setData]=useState<any>(seed),[filter,setFilter]=useState('available'),[query,setQuery]=useState(''),[sort,setSort]=useState('rank'),[count,setCount]=useState(2),[focus,setFocus]=useState<any>(null),[notice,setNotice]=useState(''),[now,setNow]=useState(0),[refreshing,setRefreshing]=useState(false);
