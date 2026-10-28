@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-28T15:37:58.770Z",
+  "checkedAt": "2026-10-28T15:47:31.587Z",
   "reviewCheckedAt": "2026-10-27",
   "source": "https://registration.experientevent.com/ShowAGU261/Flow/SHOW/EmbeddedWidget/RoomBrowse#!/registrant//RoomBrowse/",
   "monitor": "active",
   "hotels": [
     {
       "id": "43",
-      "checkedAt": "2026-10-28T15:37:58.770Z",
+      "checkedAt": "2026-10-28T15:47:31.587Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -47,7 +47,7 @@
     },
     {
       "id": "1",
-      "checkedAt": "2026-10-28T15:38:01.092Z",
+      "checkedAt": "2026-10-28T15:47:33.780Z",
       "rooms": [
         {
           "room": "Standard Room-Single",
@@ -123,7 +123,7 @@
     },
     {
       "id": "2",
-      "checkedAt": "2026-10-28T15:38:03.085Z",
+      "checkedAt": "2026-10-28T15:47:35.868Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -164,7 +164,7 @@
     },
     {
       "id": "3",
-      "checkedAt": "2026-10-28T15:38:05.088Z",
+      "checkedAt": "2026-10-28T15:47:37.790Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -205,7 +205,7 @@
     },
     {
       "id": "4",
-      "checkedAt": "2026-10-28T15:38:07.347Z",
+      "checkedAt": "2026-10-28T15:47:39.824Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -246,7 +246,7 @@
     },
     {
       "id": "5",
-      "checkedAt": "2026-10-28T15:38:09.357Z",
+      "checkedAt": "2026-10-28T15:47:42.058Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -322,7 +322,7 @@
     },
     {
       "id": "6",
-      "checkedAt": "2026-10-28T15:38:11.432Z",
+      "checkedAt": "2026-10-28T15:47:43.860Z",
       "rooms": [
         {
           "room": "Historic Standard Room",
@@ -398,7 +398,7 @@
     },
     {
       "id": "7",
-      "checkedAt": "2026-10-28T15:38:13.388Z",
+      "checkedAt": "2026-10-28T15:47:45.849Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -439,7 +439,7 @@
     },
     {
       "id": "8",
-      "checkedAt": "2026-10-28T15:38:15.373Z",
+      "checkedAt": "2026-10-28T15:47:47.904Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -480,7 +480,7 @@
     },
     {
       "id": "9",
-      "checkedAt": "2026-10-28T15:38:17.367Z",
+      "checkedAt": "2026-10-28T15:47:49.963Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -521,7 +521,7 @@
     },
     {
       "id": "10",
-      "checkedAt": "2026-10-28T15:38:19.418Z",
+      "checkedAt": "2026-10-28T15:47:52.056Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -562,7 +562,7 @@
     },
     {
       "id": "11",
-      "checkedAt": "2026-10-28T15:38:50.003Z",
+      "checkedAt": "2026-10-28T15:48:19.732Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -603,7 +603,7 @@
     },
     {
       "id": "12",
-      "checkedAt": "2026-10-28T15:38:52.636Z",
+      "checkedAt": "2026-10-28T15:48:21.382Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -644,7 +644,7 @@
     },
     {
       "id": "13",
-      "checkedAt": "2026-10-28T15:38:54.660Z",
+      "checkedAt": "2026-10-28T15:48:23.361Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -685,7 +685,7 @@
     },
     {
       "id": "14",
-      "checkedAt": "2026-10-28T15:38:56.615Z",
+      "checkedAt": "2026-10-28T15:48:25.461Z",
       "rooms": [
         {
           "room": "Standard Room-Single",
@@ -761,7 +761,7 @@
     },
     {
       "id": "15",
-      "checkedAt": "2026-10-28T15:38:58.735Z",
+      "checkedAt": "2026-10-28T15:48:27.363Z",
       "rooms": [
         {
           "room": "Standard Room-Single",
@@ -802,7 +802,7 @@
     },
     {
       "id": "16",
-      "checkedAt": "2026-10-28T15:39:00.664Z",
+      "checkedAt": "2026-10-28T15:48:29.368Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -843,7 +843,7 @@
     },
     {
       "id": "17",
-      "checkedAt": "2026-10-28T15:39:02.778Z",
+      "checkedAt": "2026-10-28T15:48:31.510Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -884,7 +884,7 @@
     },
     {
       "id": "18",
-      "checkedAt": "2026-10-28T15:39:04.728Z",
+      "checkedAt": "2026-10-28T15:48:33.466Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -925,7 +925,7 @@
     },
     {
       "id": "19",
-      "checkedAt": "2026-10-28T15:39:06.962Z",
+      "checkedAt": "2026-10-28T15:48:35.398Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -966,7 +966,7 @@
     },
     {
       "id": "20",
-      "checkedAt": "2026-10-28T15:39:08.735Z",
+      "checkedAt": "2026-10-28T15:48:37.409Z",
       "rooms": [
         {
           "room": "Deluxe King Standard Room",
@@ -1007,7 +1007,7 @@
     },
     {
       "id": "21",
-      "checkedAt": "2026-10-28T15:39:10.733Z",
+      "checkedAt": "2026-10-28T15:48:39.392Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -1048,7 +1048,7 @@
     },
     {
       "id": "22",
-      "checkedAt": "2026-10-28T15:39:30.253Z",
+      "checkedAt": "2026-10-28T15:49:58.340Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -1089,7 +1089,7 @@
     },
     {
       "id": "23",
-      "checkedAt": "2026-10-28T15:39:32.739Z",
+      "checkedAt": "2026-10-28T15:50:00.622Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -1130,7 +1130,7 @@
     },
     {
       "id": "24",
-      "checkedAt": "2026-10-28T15:39:34.789Z",
+      "checkedAt": "2026-10-28T15:50:02.599Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -1171,7 +1171,7 @@
     },
     {
       "id": "25",
-      "checkedAt": "2026-10-28T15:39:37.019Z",
+      "checkedAt": "2026-10-28T15:50:04.629Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -1212,7 +1212,7 @@
     },
     {
       "id": "26",
-      "checkedAt": "2026-10-28T15:39:38.840Z",
+      "checkedAt": "2026-10-28T15:50:06.987Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -1253,7 +1253,7 @@
     },
     {
       "id": "27",
-      "checkedAt": "2026-10-28T15:39:40.860Z",
+      "checkedAt": "2026-10-28T15:50:08.649Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -1294,7 +1294,7 @@
     },
     {
       "id": "28",
-      "checkedAt": "2026-10-28T15:39:42.881Z",
+      "checkedAt": "2026-10-28T15:50:10.657Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -1335,7 +1335,7 @@
     },
     {
       "id": "29",
-      "checkedAt": "2026-10-28T15:39:44.869Z",
+      "checkedAt": "2026-10-28T15:50:12.677Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -1376,7 +1376,7 @@
     },
     {
       "id": "30",
-      "checkedAt": "2026-10-28T15:39:47.043Z",
+      "checkedAt": "2026-10-28T15:50:14.686Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -1417,7 +1417,7 @@
     },
     {
       "id": "31",
-      "checkedAt": "2026-10-28T15:39:48.884Z",
+      "checkedAt": "2026-10-28T15:50:16.995Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -1458,7 +1458,7 @@
     },
     {
       "id": "32",
-      "checkedAt": "2026-10-28T15:39:50.901Z",
+      "checkedAt": "2026-10-28T15:50:18.671Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -1499,7 +1499,7 @@
     },
     {
       "id": "33",
-      "checkedAt": "2026-10-28T15:40:37.118Z",
+      "checkedAt": "2026-10-28T15:50:57.244Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -1575,7 +1575,7 @@
     },
     {
       "id": "34",
-      "checkedAt": "2026-10-28T15:40:39.544Z",
+      "checkedAt": "2026-10-28T15:50:59.649Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -1616,7 +1616,7 @@
     },
     {
       "id": "35",
-      "checkedAt": "2026-10-28T15:40:41.571Z",
+      "checkedAt": "2026-10-28T15:51:02.165Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -1657,7 +1657,7 @@
     },
     {
       "id": "36",
-      "checkedAt": "2026-10-28T15:40:43.579Z",
+      "checkedAt": "2026-10-28T15:51:04.683Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -1698,7 +1698,7 @@
     },
     {
       "id": "37",
-      "checkedAt": "2026-10-28T15:40:45.642Z",
+      "checkedAt": "2026-10-28T15:51:07.058Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -1739,7 +1739,7 @@
     },
     {
       "id": "38",
-      "checkedAt": "2026-10-28T15:40:47.587Z",
+      "checkedAt": "2026-10-28T15:51:08.786Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -1780,7 +1780,7 @@
     },
     {
       "id": "39",
-      "checkedAt": "2026-10-28T15:40:49.596Z",
+      "checkedAt": "2026-10-28T15:51:10.793Z",
       "rooms": [
         {
           "room": "Deluxe Standard Room",
@@ -1856,7 +1856,7 @@
     },
     {
       "id": "40",
-      "checkedAt": "2026-10-28T15:40:51.617Z",
+      "checkedAt": "2026-10-28T15:51:12.809Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -1897,7 +1897,7 @@
     },
     {
       "id": "41",
-      "checkedAt": "2026-10-28T15:40:53.616Z",
+      "checkedAt": "2026-10-28T15:51:14.722Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -1938,7 +1938,7 @@
     },
     {
       "id": "42",
-      "checkedAt": "2026-10-28T15:40:55.615Z",
+      "checkedAt": "2026-10-28T15:51:17.024Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -1979,7 +1979,7 @@
     },
     {
       "id": "44",
-      "checkedAt": "2026-10-28T15:40:57.628Z",
+      "checkedAt": "2026-10-28T15:51:18.777Z",
       "rooms": [
         {
           "room": "Standard Room",
@@ -2019,13 +2019,13 @@
       ]
     }
   ],
-  "lastAttemptAt": "2026-10-28T15:37:15.853Z",
-  "lastSuccessAt": "2026-10-28T15:41:18.578Z",
+  "lastAttemptAt": "2026-10-28T15:46:45.977Z",
+  "lastSuccessAt": "2026-10-28T15:51:40.637Z",
   "checkedHotels": 44,
   "schedule": "every_5_minutes",
   "runner": "Codex 本机定时任务",
   "scheduleValidation": "scheduled_run",
-  "coverageNote": "本轮核验44/44家、50个普通房型，房态无变化，8家满足六晚。未勾选Include Sold Out实际显示16家，其中8家六晚未确认。Trip Hotel Via明确显示指定六晚无房；19/44家已有报价保留原核验时间。推荐重新评估，前三不变。",
+  "coverageNote": "本轮核验44/44家、50个普通房型，房态无变化，8家满足六晚。未勾选Include Sold Out实际显示16家，其中8家六晚未确认。Trip Hotel Zelos房型区未返回报价；19/44家已有报价保留原核验时间。推荐重新评估，前三不变。",
   "officialListedIds": [
     "7",
     "8",
@@ -2044,7 +2044,7 @@
     "42",
     "44"
   ],
-  "officialListCheckedAt": "2026-10-28T15:41:18.578Z",
+  "officialListCheckedAt": "2026-10-28T15:51:40.637Z",
   "otaAttempts": {
     "3": {
       "status": "success",
@@ -2101,6 +2101,11 @@
       "attemptedAt": "2026-10-28T15:42:53.011Z",
       "reason": "Trip站内搜索确认2026-12-06至12-12、1间2成人、USD；Hotel Via明确显示所选日期无房，只提供其他日期选择，未将其他日期起价当作六晚报价。"
     },
+    "20": {
+      "status": "failed",
+      "attemptedAt": "2026-10-28T15:51:40.637Z",
+      "reason": "Trip详情显示指定六晚1间2成人USD；点击重新查询后房型区仍仅显示Choose your room，未返回可核实报价。"
+    },
     "21": {
       "status": "failed",
       "attemptedAt": "2026-10-28T13:43:51.000Z",
@@ -2153,7 +2158,7 @@
     }
   },
   "recommendations": {
-    "assessedAt": "2026-10-28T15:42:53.011Z",
+    "assessedAt": "2026-10-28T15:51:40.637Z",
     "order": [
       "35",
       "31",
