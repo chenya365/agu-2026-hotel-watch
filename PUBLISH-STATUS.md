@@ -1,0 +1,1 @@
+Published: https://chenya365.github.io/agu-2026-hotel-watch/`nRepository: https://github.com/chenya365/agu-2026-hotel-watch`nVerified public page, inventory loading, filter and Westin dialog on 2026-10-28. Snapshot: verified-20261028-0834.json. Automatic inventory publication remains pending.
