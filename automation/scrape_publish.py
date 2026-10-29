@@ -265,7 +265,7 @@ def update_snapshot(results: dict[str, dict], listed_ids: list[str],
     data["officialListCheckedAt"] = list_checked_at
     if len(results) == 44 and len(listed_ids) == 44 and not failures:
         reassess_recommendations(data, attempted_at)
-    data["schedule"] = "每 30 分钟（香港时间）"
+    data["schedule"] = "每 10 分钟（香港时间）"
     data["runner"] = "HQLX62 后台任务；网页只展示已发布结果"
     if len(results) == len(listed_ids) == 44 and not failures:
         data["monitor"] = "publishing"
@@ -323,7 +323,7 @@ def publish_failure(attempted_at: str, message: str) -> None:
         data["lastAttemptAt"] = attempted_at
         data["monitor"] = "failed"
         data["checkedHotels"] = 0
-        data["schedule"] = "每 30 分钟（香港时间）"
+        data["schedule"] = "每 10 分钟（香港时间）"
         data["runner"] = "HQLX62 后台任务；网页只展示已发布结果"
         data["coverageNote"] = "本轮采集失败，旧房态与酒店核验时间未变更。"
         INVENTORY.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
