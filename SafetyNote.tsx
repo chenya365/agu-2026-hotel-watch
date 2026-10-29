@@ -1,26 +1,37 @@
 import React from 'react';
-import {safetyReviewedOn,safetyAreaNotes,safetyGuestReports,safetySources} from './safety-notes.mjs';
+import {safetyReviewedOn,safetyGuestReports,safetySources} from './safety-notes.mjs';
 
-export function SafetyNote({hotel,compact=false}:any){
- const area=safetyAreaNotes[hotel.area];
- const guest=safetyGuestReports[hotel.id];
- return <section className="safety-note" aria-label={hotel.name+' 周边安全信息'}>
-  <strong>周边安全与出行</strong>
-  {area&&<p><b>街区背景（主观调查）</b>{area.context}</p>}
-  {guest&&<p><b>住客个案（非犯罪统计）</b>{guest}</p>}
-  {!area&&!guest&&<p>本次未找到足够、可核对的酒店周边安全经历；这不代表没有风险。可按酒店准确地址查看近期官方资料。</p>}
-  <p><b>建议</b>夜间优先走照明良好且有人流的主路；不边走边看手机，随身物品贴身保管。晚间或不熟悉路线时，可叫车到酒店入口并提前确认上车点。</p>
-  {!compact&&<><small>安全资料整理：{safetyReviewedOn}。SFPD 事件记录可能随补录和更正而变化；居民调查衡量主观感受。两者都不能预测某家酒店或某条街此刻的风险。</small><div className="review-sources">{guest&&hotel.reviewUrl&&<a href={hotel.reviewUrl} target="_blank" rel="noreferrer">查看此酒店住客评价 ↗</a>}{safetySources.map(([label,url]:any)=><a key={url} href={url} target="_blank" rel="noreferrer">{label} ↗</a>)}</div></>}
+function sourceLink(h:any){
+ return h.reviewUrl?<a href={h.reviewUrl} target="_blank" rel="noreferrer">查看该酒店 Tripadvisor 评论 ↗</a>:null;
+}
+
+// A short, hotel-specific note appears only where a dated comment was found.
+// This intentionally adds no repeated generic advice to hotels without evidence.
+export function SafetyHotelNote({hotel,compact=false}:any){
+ const note=(safetyGuestReports as any)[String(hotel.id)];
+ if(!note)return null;
+ return <section className={'safety-note'+(compact?' compact':'')} aria-label={hotel.name+'安全相关住客评价'}>
+  <strong>安全相关住客评价</strong>
+  {compact?<><p>{note.summary}</p><small>{note.entries.length} 条有日期记录 · 详情见酒店弹窗</small></>:<>
+   <p className="muted">以下仅为该酒店评论页中少数住客的主观体验，不能代表发生率、当前治安或酒店安防水平；相反意见并列保留。</p>
+   <ul>{note.entries.map((entry:any,i:number)=><li key={i}><b>{entry.date}</b>{entry.type&&<em> · {entry.type}</em>}：{entry.text}</li>)}</ul>
+   {sourceLink(hotel)}
+  </>}
  </section>;
 }
 
-export function SafetyOverview(){
- return <section className="safety-panel" aria-label="旧金山酒店周边安全与出行建议">
-  <div><span className="eyebrow">出行提醒 · 2026/10/29 整理</span><h2>周边安全，按街区与时段判断</h2>
-   <p>本页不把酒店或街区标成“安全/危险”。旧金山市府 2023 居民调查反映的是居民主观安全感；SFPD 犯罪数据是持续修订的事件记录，不等同于游客在酒店门口的即时风险。该调查将 Financial District / South Beach 的居民安全感列为较低一档；请同时考虑调查年份、酒店准确地址、路线和出行时段。</p>
-   <p>实用做法：晚间走照明良好且有人流的主路；避免边走边看手机或展示贵重物品；不在车内留行李；不熟悉的夜间路线可直接叫车到酒店入口。详情弹窗会注明已核实评论中的周边感受个案，但个案不是犯罪统计。</p>
+// Keep the existing page import name while changing the content to specific reviews only.
+export const SafetyNote=SafetyHotelNote;
+
+export function SafetyOverview({hotels=[]}:any){
+ const reportCount=hotels.filter((h:any)=>(safetyGuestReports as any)[String(h.id)]).length;
+ return <section className="safety-panel" aria-label="旧金山住宿安全评价与出行建议">
+  <div><span className="eyebrow">出行提醒 · {safetyReviewedOn} 整理</span><h2>安全相关住客评价与出行建议</h2>
+   <p>已逐一检查 44 家酒店的住客评论；其中 {reportCount} 家找到可追溯的安全、夜间步行、门禁或客房隐私相关评价。具体内容只放在对应酒店卡片与详情中；未列出的酒店表示本轮没有找到可核实的相关评论，不代表没有风险。</p>
+   <p>评论是个别且带日期的主观体验，不是犯罪记录、酒店审计或当前风险预测。通用建议只在此列一次：夜间优先走照明和人流较好的主路；留意路线与随身物品；不确定路线时直接叫车到酒店入口。</p>
   </div>
   <div className="safety-sources">{safetySources.map(([label,url]:any)=><a key={url} href={url} target="_blank" rel="noreferrer">{label} ↗</a>)}</div>
-  <small>数据与建议复核日：{safetyReviewedOn}。SFPD 提醒事件记录可能随补录、更正而变化；不用于给单家酒店评分。</small>
+  <small>市府居民调查衡量主观感受，SFPD 仪表板记录的是事件数据；两者都不能推断单家酒店或某个时段的即时风险。复核日期：{safetyReviewedOn}。</small>
  </section>;
 }
+
