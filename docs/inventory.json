@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-30T13:40:23+08:00",
   "reviewCheckedAt": "2026-10-27",
   "source": "https://registration.experientevent.com/ShowAGU261/Flow/SHOW/EmbeddedWidget/RoomBrowse#!/registrant//RoomBrowse/",
-  "monitor": "active",
+  "monitor": "failed",
   "hotels": [
     {
       "id": "43",
@@ -2054,13 +2054,13 @@
       ]
     }
   ],
-  "lastAttemptAt": "2026-10-30T13:40:02+08:00",
+  "lastAttemptAt": "2026-10-30T13:50:02+08:00",
   "lastSuccessAt": "2026-10-30T13:41:01+08:00",
-  "checkedHotels": 44,
+  "checkedHotels": 0,
   "schedule": "每 10 分钟（香港时间）",
   "runner": "HQLX69 后台任务；网页只展示已发布结果",
   "scheduleValidation": "2026-10-30T13:41:38+08:00",
-  "coverageNote": "本轮已逐一核验 44/44 家；官方页 Include Sold Out 未勾选，实际列出 44 家。普通房型逐晚状态已核对，政府价与候补不计作有房。最近核验 2026-10-30T13:40:02+08:00。",
+  "coverageNote": "本轮采集失败，旧房态与酒店核验时间未变更。",
   "officialListedIds": [
     "1",
     "2",
